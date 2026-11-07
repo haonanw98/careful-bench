@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# Local configuration and credentials
+.env
+
+# Benchmark data and run outputs (distributed separately, never committed)
+scenarios/
+data/
+livesqlbench-base-full-v1/
+logs/
+results/
+output/
+
+# OS
+.DS_Store
