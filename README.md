@@ -11,7 +11,7 @@ CARE tests whether LLM agents can do database work safely, not just produce corr
 | **R**ules & Integrity | `business_and_integrity_rules/` |
 | **E**fficiency | `efficiency/` |
 
-This repository contains the evaluation code only. The task data and database assets are released separately.
+This repository contains the code for the benchmark.
 
 ## Repository layout
 
@@ -132,5 +132,5 @@ python -m pytest tests
 ## License
 
 - **Code:** MIT License; see [`LICENSE`](LICENSE).
-- **Task data:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Upstream data:** CAREFUL builds on databases from Spider 2.0 and BIRD-Interact (LiveSQLBench), which keep their own licenses: [Spider 2.0](https://github.com/xlang-ai/Spider2) (MIT), [LiveSQLBench](https://huggingface.co/datasets/birdsql/livesqlbench-base-full-v1) (CC BY 4.0), and [BIRD-Interact](https://huggingface.co/datasets/birdsql/bird-interact-full) (CC BY-SA 4.0). Follow their terms when you download and use those databases.
+- **Task data:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), because the tasks build on LiveSQLBench and BIRD-Interact data, which are CC BY-SA 4.0.
+- **Upstream data:** CAREFUL builds on databases from Spider 2.0 and BIRD-Interact (LiveSQLBench), which keep their own licenses: [Spider 2.0](https://github.com/xlang-ai/Spider2) (MIT), [LiveSQLBench](https://huggingface.co/datasets/birdsql/livesqlbench-base-full-v1) (CC BY-SA 4.0; the dataset card's metadata says CC BY 4.0, but its license section and the LiveSQLBench GitHub README say CC BY-SA 4.0), and [BIRD-Interact](https://huggingface.co/datasets/birdsql/bird-interact-full) (CC BY-SA 4.0). Follow their terms when you download and use those databases.
